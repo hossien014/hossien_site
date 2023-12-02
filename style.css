@@ -126,7 +126,9 @@ nav {
 }
 .blcok_1 {
   background-image: url(/images/bg-centered-planet.webp);
-  background-size: 100%;
+  /* background-size: 100%; */
+  background-size: cover;
+
   /* width: 100%; */
   background-repeat: no-repeat;
   background-position: top;
@@ -154,6 +156,7 @@ nav {
 }
 #top_headline .down_text {
   color: gray;
+  text-align: center;
   font-weight: 400;
   margin-top: 20px;
   font-size: 1.3rem;
@@ -275,7 +278,7 @@ div {
     margin-left: 2.5%;
     margin-right: 2.5%;
   }
-   .center_head_line{
+  .center_head_line {
     width: 80%;
   }
 }
@@ -309,21 +312,37 @@ div {
   }
   nav {
     /* background-color: red; */
-      margin-right: 0px;
-
+    margin-right: 0px;
   }
-  
-
 }
 
-@media(max-width:630px){
-
-  .card{
+@media (max-width: 630px) {
+  .card {
     width: 90%;
   }
-  .card_g{
+  .card_g {
     align-items: center;
     flex-direction: column;
   }
+}
+@media (max-width: 535px) {
+  .blcok_1 {
+    /* background-image: url(/images/bg-centered-planet.webp); */
+    background-size: cover;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgb(0, 0, 0);
+  }
+  nav {
+    font-size: 13px;
+    gap: 8px;
+  }
+}
 
+@media (max-width: 360px) {
+  nav {
+    font-size: 10px;
+    gap: 7px;
+  }
 }
