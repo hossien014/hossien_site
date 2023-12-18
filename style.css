@@ -283,7 +283,7 @@ div {
   flex-direction: column;
   /* height: 100vh; */
   width: 100%;
-  background-image: url(/images/bg-saturn.webp);
+  background-image: url(images/bg-saturn.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -415,7 +415,7 @@ div {
 }
 
 #help_you {
-  background-image: url("/images/bg-cta.webp");
+  background-image: url("images/bg-cta.webp");
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
